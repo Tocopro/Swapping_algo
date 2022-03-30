@@ -1,0 +1,19 @@
+
+#include <iostream>
+#include <vector>
+#include <iterator>
+using  namespace std;
+
+int main()
+{
+    int i = 7;
+    int y = 10;
+
+    cout << "Value of i = " << i << endl;
+    cout << "Value of y = " << y << endl;
+    swap(i,y);
+    cout << "After swapping i = " << i << endl;
+    cout << "After swapping y = " << y << endl;
+    return 0;
+}
+
